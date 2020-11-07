@@ -1,0 +1,403 @@
+header{
+	background-image: url(Image/adventure-alberta-banff-2695232.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-color: #000000;
+	background-blend-mode: hard-light;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    text-transform: uppercase;
+    color: white; 
+	font-size: 14px;
+	font-weight: 600;
+}
+.my-button{
+	background-color:0069D9;
+	color:white;
+    box-shadow: 3px 2px 5px 1px black;
+}
+.my-button:hover{
+	color:#ffbc00;
+    box-shadow: 3px 2px 5px 1px black;
+}
+
+.navbar-brand{
+    text-align:  center;
+}
+.navbar-brand h1{
+font-size: 20px;
+}
+.navbar-brand span{
+display:  block;
+font-weight: 400;
+text-transform:  uppercase;
+}
+.bg-dark {
+    background-color: #080b0e3b!important;
+}
+/*Here is responsive code*/
+@media (max-width:1199px){
+.banner h1{
+	font-size: 50px !important;
+	
+	transition:0.8s all;
+}
+header .row {
+    align-items: center;
+        min-height: 60vh !important;
+}
+.austrlia {
+      height: 22.2pc!important;
+}
+}
+
+@media (max-width:990px){
+	
+	.banner h1{
+		font-size: 39px!important;
+	}
+	header .row {
+    align-items: center;
+    min-height: 55vh !important;
+}
+.austrlia {
+        height: 16.5pc !important;
+}
+.banner1 h4 {
+font-size: 20px !important;
+}
+}
+
+@media (max-width:767px){
+.navbar-collapse {
+	background: #f38500;
+	padding:20px;
+}
+.banner h1{
+	font-size: 28px!important;
+}
+.banner1 span {
+color: #f71f55 !important;
+}
+header .row {
+    align-items: center;
+    min-height: 55h !important;
+}
+	.btn-custom {
+	font-size: 12px;
+	padding: 5px !important;
+	}
+.navbar-collapse ul{
+	text-align:center
+}
+.feedback-content i {
+    left: 50%!important;
+    top: 6px!important;
+    font-size: 3em!important;
+    transform: translate(-50%, 0%)!important;
+}
+.austrlia {
+    height: 33.5pc;
+}
+.Upcomming {
+    margin-bottom: 25px !IMPORTANT;
+}
+.banner h3 {
+    font-size: 22px !important;
+}
+.banner1 h4 {
+	font-size: 26px !important;
+}
+.banner1 h4 {
+	font-size: 18px !important;
+	margin: 0px 0 18px 0 !important;
+}
+}
+
+@media (max-width: 575px){
+	.banner h1{    font-size: 15px !important;
+	}
+	.banner h4 {
+	font-size: 13px !important;
+	}
+	.banner1 span {		
+	    font-size: 9px !important;
+	}
+	.banner1 p{
+	font-size: 10px!important;
+	}
+	.tours-section{
+		text-align:center;
+	}
+.tour-content{
+	
+	margin-bottom:40px;
+}
+.tour-content h1 {
+	font-size: 20px !important;	
+	    position: relative !important;
+	}
+	.tour-content h1::after {
+    content: " " !important;
+    background: #f71f55 !important;
+    position: absolute !important;
+    width: 76px !important;
+    height: 4px !important;
+    bottom: 0px !important;
+    left: 40% !important;
+	}
+	.tour-content p {
+		font-size:14px !important;
+	}
+	.last-section h4{
+		font-size:16px
+	}
+	.last-section span{
+		font-size:14px;    color: wheat;
+	}
+	
+}
+/*[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    color: white;
+}*/
+/*.navbar-nav li:last-child{
+	
+	border: 1px solid white
+}*/
+
+/*navbar-nav li:nth-child(2){
+	color:red;
+}*/
+header .row{
+	align-items:center;
+	min-height: 85vh;
+}
+.banner{
+text-align:  center;
+}
+.banner h4{font-size:  20px;font-style:  italic;position:  relative;padding-bottom: 18px;}
+.banner h4::after{
+	content:" ";
+	background: #f71f55;
+	position:  absolute;
+	width: 70px;
+	height:  4px;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+}
+.banner h1{
+font-size: 63px;
+text-transform: capitalize;
+text-transform:  uppercase;
+}
+.btn-custom{
+	background-color: #f71f55;
+	text-transform:  uppercase;
+	font-weight:  700;
+	/* padding-left:  20px; */
+	padding:  10px;
+	/* padding-right:  20px; */
+	border-radius:  24px;
+	color: ghostwhite;
+	transition: 0.5s all ease;
+}
+
+.btn-custom:hover{
+	color:black;
+	background-color: #F3D1BD;
+	text-decoration:none;
+	font-family: serif;
+	box-shadow: 0px 4px 1px 0px #0101014f;
+}
+.feedback-section{
+	
+background: #F0F1F5;
+	
+/* padding: 25px; */
+}
+.feedback-content{
+	
+padding: 50px 0;
+	
+text-align:  center;
+	
+position:  relative;
+}
+.feedback-content i{
+	
+position:  absolute;
+	
+color: #ffffff;
+	
+left: -20%;
+	
+top: 50%;
+	
+font-size: 8em;
+	
+transform: translate(-20%, -50%);
+}
+.feedback-content p{
+	
+}
+.feedback-content strong{
+	
+}
+
+.banner h3{
+	font-weight:600;
+	font-size:  30px;
+	position:  relative;
+	padding-bottom: 18px;
+	margin: 70px 0 50px 0;
+	}
+.banner h3::after{
+	content:" ";
+	background: #f71f55;
+	position:  absolute;
+	width: 70px;
+	height:  4px;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+}
+.events{box-shadow: 11px 6px 0 0 #dfdede7a;margin-bottom: 40px;height: 40vh;width: 90%;}
+.Upcomming{
+	
+}
+.Upcomming h5{
+	
+font-weight: 700;
+	
+padding-bottom: 6px;
+	
+font-size:  22px;
+	
+font-family: inherit;
+}
+
+.Upcomming p{
+	
+font-size: 15px;
+	
+color: #818183;
+	
+/* width: 70%; */
+}
+.Upcomming span{text-transform:  uppercase;color: #ff0040;font-weight: 500;
+
+transition: 0.4s all ease;
+}
+.Upcomming span:hover{
+	color:black;
+	background: #F3D1BD;
+	padding:  10px;
+	border-radius:  20px;
+	border-left: 2px solid rosybrown;
+	border-right: 2px solid #977d6d;
+	cursor: pointer;
+}
+.world-section{
+	
+background: url(Image/1.jpg);
+	
+background-position:center;
+	
+background-size: cover;
+	
+height: 80vh;
+	
+background-attachment:  fixed;
+background-color: #00000085;
+background-blend-mode: color-dodge;
+}
+.world-section .row{
+	align-items: center;
+    min-height: 85vh;
+	
+}
+
+.banner1 h4{
+	font-weight: 700;
+	font-size: 50px;
+	position:  relative;
+	padding-bottom: 18px;
+	margin: -40px 0 30px 0;
+	color: white;
+	font-family: monospace;
+	}
+.banner1 h4::after{
+	content:" ";
+	background: #f71f55;
+	position:  absolute;
+	width: 60px;
+	height: 4px;
+	bottom: 0px;
+	left: 4%;
+	transform: translate(-11%);
+}
+.banner1 p{
+	
+font-size: 14px;
+	
+font-family:  monospace;
+	
+color: white;
+	
+margin-bottom: 25px;
+}
+
+.banner1 span{
+	
+color: white;
+}
+.tours-section{
+	
+padding: 100px;
+}
+.tour-content{
+	
+}
+.tour-content h1{
+text-transform:  uppercase;
+font-size: 30px;
+font-weight: 800;
+padding-bottom:20px;
+position:relative;
+}
+.tour-content h1::after{
+	content:" ";
+	background: #f71f55;
+	position:  absolute;
+	width: 60px;
+	height: 4px;
+	bottom: 0px;
+	left: 0;
+}
+
+.austrlia {
+    height: 33.5pc;
+}
+
+.tour-content p{
+	
+color: #6c6666;
+	
+font-size: 16px;
+}
+.tours-section img{
+	
+padding: 10px;
+}
+.last-section{
+	
+padding: 40px;
+	
+background:  black;
+	
+color: white;
+}
